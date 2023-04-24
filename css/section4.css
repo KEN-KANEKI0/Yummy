@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+}
+
+section{
+    padding: 80px 0;
+}
+
+.menuOuterWrapper {
+    padding: 80px 0;
+    background: white;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuHeader {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuHeader h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+    text-transform: uppercase;
+    font-family: var(--font-default);
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuHeader p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuHeader span {
+    color: #ce1212;
+    font-family: inherit;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuPeriodWise {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuPeriodWise li {
+    margin: 0 10px;
+    padding: 10px 5px;
+    border-bottom: 2px solid #b6b6bf;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuPeriodWise .menuActive {
+    color: #ce1212;
+    border-bottom: 2px solid #ce1212 !important;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuPeriodWise li:hover {
+    border-bottom: 2px solid #e3e3e5;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuPeriodWise li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: inherit;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuPeriodWise li a h4 {
+    font-size: 18px;
+    font-weight: inherit;
+}
+
+
+.menuOuterWrapper .menuInnerWrapper .menuPeriodWise li a:hover {
+    color: #ce1212;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish {
+    padding: 30px 0;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishH {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishH p {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #676775;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishH h4 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #ce1212;
+    font-family: "Inter", sans-serif;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishPC {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishPC .menuDishPic {
+    text-align: center;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishPC .menuDishPic a {
+    width: 285px;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishPC .menuDishPic a img {
+    width: 100%;
+    padding-bottom: 10px;
+
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishPC .menuDishPic h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 500px;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishPC .menuDishPic .ingr {
+    color: #8d8d9b;
+}
+
+.menuOuterWrapper .menuInnerWrapper .menuDish .menuDishPC .menuDishPic .price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ce1212;
+    font-family: "Open Sans", system-ui;
+    padding-bottom: 20px;
+}
+
+.menuDishPic:hover {
+    background: radial-gradient(circle, rgb(255 255 255) 0%, rgb(206 18 18 / 10%) 100%);
+    border-radius: 4%;
+    transition: ease-in-out .3s;
+    
+}
+
+.testOuterWrapper{
+    padding: 80px 0 ;
+    background-color: #eee;
+
+}
+
+.testOuterWrapper .testInnerWrapper .testHeader {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+.testOuterWrapper .testInnerWrapper .testHeader h2{
+    font-size: 13px; 
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+    text-transform: uppercase;
+    line-height: calc(15.6 / 13);
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+.testOuterWrapper .testInnerWrapper .testHeader p{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: "Amatic SC", sans-serif;
+
+}
+.testOuterWrapper .testInnerWrapper .testHeader p span{
+    font-family: "Amatic SC", sans-serif;
+    color: #ce1212;
+}
+
+.biowrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.bioContent{
+    display: flex;
+    max-width: 68%;
+    justify-content: center;
+}
+
+.bioContent .bioContentInfo p{
+    font-style: italic;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+}
+
+.bioContent .bioContentInfo h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #212529;
+    font-family: "Inter", sans-serif;
+
+}
+
+.bioContent .bioContentInfo h4{
+    font-size: 14px;
+    color: #6c757d;
+    margin: 0 0 10px 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+.bioContentPic{
+    width: 470px;
+    padding: 0px 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.bioContentPic img{
+    width: 100%;
+    border-radius: 100%;
+    border: 4px solid #fff;
+    margin: 0 auto;
+}
+.bioContent .bioContentInfo p i::before{
+    
+    color: #ce1212;
+}
+
+.bioContent .bioContentInfo span i::before{
+    color: #ffc107;
+    /* font-size: 13px; */
+}
+
+.eventOuterWrapper .eventInnerWrapper .event .eventHeader{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.eventOuterWrapper .eventInnerWrapper .event .eventHeader h2{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #7f7f90;
+    text-transform: uppercase;
+
+}
+.eventOuterWrapper .eventInnerWrapper .event .eventHeader p{
+    font-size: 48px;
+    font-weight: 400;
+    font-family:  "Amatic SC", sans-serif;
+    
+}
+
+.eventOuterWrapper .eventInnerWrapper .event .eventHeader span{
+    font-family:  "Amatic SC", sans-serif;
+    color: #ce1212;
+}
+.eventOuterWrapper .eventInnerWrapper .event .eventparties{
+    display: flex;
+    
+}
+.eventOuterWrapper .eventInnerWrapper .event .eventparties .privateParty{
+    background-image: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/events-2.jpg);
+    width: 506.333px;
+}
+
+
+.eventOuterWrapper .eventInnerWrapper .event .eventparties .bdayParty{
+    background-image: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/events-3.jpg);
+    width: 506.333px;
+    border: 01px solid white;
+}
+.eventOuterWrapper .eventInnerWrapper .event .eventparties .customParty{
+    background-image: url(https://bootstrapmade.com/demo/templates/Yummy/assets/img/events-1.jpg);
+    width: 506.333px;
+    border: 0.1px solid white;
+}
+.eventOuterWrapper .eventInnerWrapper .event .eventparties .PartyType{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #fff;
+    position: relative;
+    font-family: "Inter", sans-serif;
+}
+.eventOuterWrapper .eventInnerWrapper .event .eventparties .partyPrice{
+    color: #fff;
+    /* border-bottom: 2px solid #ce1212;
+    display: flex ;
+    align-self: flex-start !important; */
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+} 
+
+.eventOuterWrapper .eventInnerWrapper .event .eventparties .partyInfo{
+    color: rgba(255, 255, 255, 0.9);
+}

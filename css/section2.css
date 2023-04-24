@@ -1,0 +1,128 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Nunito:wght@300;600&family=Open+Sans:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #e9ecef;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1320px;
+}
+
+.primary-button {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50px;
+    padding: 8px 20px;
+    transition: ease-in-out .3s;
+    text-transform: capitalize;
+}
+
+.primary-button:hover {
+    background-color: var(--primary-color-hover);
+}
+.whyMEOuterWrapper{
+    padding: 90px 0;
+}
+.whyMEInnerWrapper {
+    width: 100%;
+}
+
+.whyMETitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whyChooseMe{
+    display: flex;
+    flex-direction: column;
+    background-color: #ce1212;
+    color: #fff;
+    width: 72%;
+    padding: 30px 30px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    max-height: 340px;
+}
+.whyChooseMe h3{
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.whyChooseMe p{
+    padding-bottom: 25px;
+}
+.whyChooseMe h3,
+.whyChooseMe div a {
+    text-transform: capitalize;
+}
+
+.whyChooseMe div a {
+    text-decoration: none;
+    background:rgba(255, 255, 255, 0.3);
+}
+.whyChooseMe div a:hover{
+    background: #fff;
+    color: #ce1212;
+}
+.whyChooseMeInfo {
+    display: flex;
+    padding: 57px 12px;
+    margin: 0px 33px;
+    background-color: #e9ecef;
+}
+.whyMEOuterWrapper .container .whyMEInnerWrapper .whyMETitle .whyChooseMeInfo .meInfo{
+    
+    text-align: center;
+    background: #fff;
+    padding: 40px 30px;
+    border: 1px solid rgba(55, 55, 63, 0.1);
+    align-items: center;
+    margin: 0 26px 0 0;
+}
+.iconBox{
+    color: #ce1212;
+    background: rgba(206, 18, 18, 0.1);
+    width: 20%;
+    padding: 16px 15px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.meInfo{
+    
+    display: flex;
+    flex-direction: column;
+    transition: ease-in-out 0.3s;
+}
+.meInfo:hover{
+    transform: scale(1.1);
+}
+.whyMEOuterWrapper .container .whyMEInnerWrapper .whyMETitle .whyChooseMeInfo .meInfo p{
+    margin: 0 0 18px 0;
+    color: #6c757d;
+}
+
+.whyMEOuterWrapper .container .whyMEInnerWrapper .whyMETitle .whyChooseMeInfo .meInfo h4{
+    margin: 28px 0 28px 0;
+    font-weight: 500;
+}   
+.learnButton{
+    display: flex;
+    padding-bottom: 30px;
+}
+.iconSize{
+    font-size: 35px !important;
+} */
